@@ -93,7 +93,7 @@ const TodoComp = () => {
               className="cursor-pointer rounded border px-2 py-1 disabled:cursor-not-allowed disabled:opacity-40"
               disabled={todo.completed}
             >
-              Update
+              Edit
             </button>
             <button
               onClick={() => dispatch(deleteTodo(todo.id))}
